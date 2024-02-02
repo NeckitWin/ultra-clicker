@@ -85,3 +85,42 @@ function businessAdd() {
     count++;
     updateMoney();
 }
+
+document.addEventListener('click', function (event) {
+    var x = event.clientX;
+    var y = event.clientY;
+    var img = document.createElement('img');
+    img.src = 'https://img.razrisyika.ru/kart/10/36705-anime-tyan-1.jpg';
+    img.style.height = '20px';
+    img.style.width = '20px';
+    img.style.position = 'absolute';
+    var rand = Math.random()*(10-(-10)+1)+(-10);
+    img.style.left = x+rand+'px';
+    img.style.top = y+rand+'px';
+    img.style.zIndex = '1';
+    img.style.opacity = '1';
+
+    document.body.appendChild(img);
+
+    anime(img,y);
+});
+
+function anime(img,y){
+    var opacity = 1;
+    var top = y;
+
+    var animeInterval = setInterval(function (){
+        top+=1;
+        opacity-=0.05;
+
+        img.style.top = top+'px';
+        img.style.opacity = opacity;
+        img.style.rotate = (Math.random()*(360-1+1)+1) + 'px';
+
+        if (opacity<=0){
+            clearInterval(animeInterval);
+            document.body.removeChild(img);
+        }
+    }, 50)
+
+}
