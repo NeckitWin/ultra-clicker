@@ -1,0 +1,95 @@
+.red{color: red;}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("https://www.icegif.com/wp-content/uploads/2022/08/icegif-950.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu{
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1c1c1c;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+#bg{
+    background-color: #282828;
+    color: #FFFFFF;
+    height: 1216px;
+    width: 100%;
+    padding: 1px 0 0 0;
+    opacity: 0.8;
+}
+
+.score-bg{
+    margin: 50px auto 0;
+    background-color: gray;
+    width: 800px;
+    height: 300px;
+    border-radius: 75px;
+    border: 3px solid #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#addScore{
+    font-size: 30px;
+    border-radius: 50px;
+    padding: 20px;
+    border: #c9c8c8 5px solid;
+    transition: 0.3s ease-out;
+}#addScore:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+ }
+
+#score{
+    font-size: 30px;
+    background-color: #FFFFFF;
+    border: #1c1c1c 5px solid;
+    border-radius: 50px;
+    color: black;
+    padding: 20px;
+}
+
+#shop-bg{
+    margin: 50px auto 0;
+    background-color: gray;
+    width: 1200px;
+    height: 300px;
+    border-radius: 75px;
+    border: 3px solid #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}.price button{
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+ }
