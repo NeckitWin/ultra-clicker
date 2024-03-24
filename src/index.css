@@ -5,3 +5,9 @@
   padding: 0;
   font-family: "REM", sans-serif;
 }
+
+body {
+  background-image: url("/public/stalker.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,35 @@
+.menu {
+    background: rgba(77, 77, 77, 0.25);
+    height: 50px;
+    box-shadow: 0 0 1px #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu > a:first-child {
+    color: #ffbb39;
+}
+
+.menu a {
+    height: 50px;
+    width: 250px;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.menu a:hover {
+    background: rgba(65, 65, 65, 0.1);
+}
+
+.menu nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
