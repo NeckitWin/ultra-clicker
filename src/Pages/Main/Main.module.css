@@ -41,3 +41,10 @@
     flex-direction: column;
     gap: 20px;
 }
+
+.upgrades_description {
+    list-style-type: none;
+    font-size: 18px;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(0, 255, 218);
+}
