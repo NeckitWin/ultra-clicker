@@ -5,8 +5,13 @@
     font-size: 20px;
     padding: 10px 15px;
     border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgba(0, 255, 218, 0.3);
 }
 
 .active {
-    background-color: rgba(255, 0, 0, 0.7);
+    background-color: rgba(0, 255, 218, 0.4);
 }

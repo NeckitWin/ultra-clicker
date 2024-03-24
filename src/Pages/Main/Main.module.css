@@ -28,7 +28,7 @@
   }
 
 .frame_upgrades {
-    color: rgba(0, 245, 255, 0.8);
+    color: rgba(0, 255, 218, 0.75);
     margin-top: 20px;
 }
 
@@ -40,8 +40,4 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-
-.active {
-    background-color: #fff;
 }
